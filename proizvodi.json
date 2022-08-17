@@ -1,0 +1,82 @@
+[
+	{
+		"id" : 1,
+		"naziv" : "Ženske cipele sa štiklom",
+		"slika" : "images/zenska_obuca_1.jpg",
+		"cena" : 4500,
+		"kategorija" : {
+			"id" : 1,
+			"naziv": "Zenska obuca"
+		}
+	} ,
+	{
+		"id" : 2,
+		"naziv" : "Čizme sa krznom",
+		"slika" : "images/zenska_obuca_2.jpg",
+		"cena" : 5699,
+		"kategorija" : {
+			"id" : 1,
+			"naziv": "Zenska obuca"
+		}
+	} ,
+	{
+		"id" : 3,
+		"naziv" : "Čizme sa štiklom",
+		"slika" : "images/zenska_obuca_3.jpg",
+		"cena" : 3700,
+		"kategorija" : {
+			"id" : 1,
+			"naziv": "Zenska obuca"
+		}
+	} ,
+	{
+		"id" : 4,
+		"naziv" : "Muške patike",
+		"slika" : "images/muska_obuca_1.jpg",
+		"cena" : 9000,
+		"kategorija" : {
+			"id" : 2,
+			"naziv": "Muska obuca"
+		}
+	} ,
+	{
+		"id" : 5,
+		"naziv" : "Muške cipele",
+		"slika" : "images/muska_obuca_2.jpg",
+		"cena" : 1250,
+		"kategorija" : {
+			"id" : 2,
+			"naziv": "Muska obuca"
+		}
+	} ,
+	{
+		"id" : 6,
+		"naziv" : "Tamne muške cipele",
+		"slika" : "images/muska_obuca_3.jpg",
+		"cena" : 2457,
+		"kategorija" : {
+			"id" : 2,
+			"naziv": "Muska obuca"
+		}
+	} ,
+	{
+		"id" : 1,
+		"naziv" : "Dečije patike",
+		"slika" : "images/decija_obuca_1.jpg",
+		"cena" : 6000,
+		"kategorija" : {
+			"id" : 3,
+			"naziv": "Decija obuca"
+		}
+	} ,
+	{
+		"id" : 1,
+		"naziv" : "Dečije cipelice",
+		"slika" : "images/decija_obuca_2.jpg",
+		"cena" : 7300,
+		"kategorija" : {
+			"id" : 3,
+			"naziv": "Decija obuca"
+		}
+	} 
+]

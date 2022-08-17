@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"naziv": "Zenska obuca"
+	},
+	{
+		"id" : 2,
+		"naziv" : "Muska obuca"
+	},
+	{
+		"id": 3,
+		"naziv" : "Decija obuca"
+	}
+]

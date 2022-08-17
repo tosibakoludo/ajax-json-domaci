@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web programiranje</title>
+		<meta charset="utf-8"/>
+		<link href="../css/stil.css" rel="stylesheet" type="text/css"/>
+		<meta name="author" content="Milena Vesić"/>
+	</head>
+	<body>
+		
+		<div class="region">
+			<div id="navigacija">
+				<ul>
+					<li class="aktivan"><a href="termin8.html">Opis zadataka</a></li>
+					<li><a href="termin8_1.html">Zadatak</a></li>
+				</ul>
+			</div>
+			<div class="centar">
+				
+				<p><b>Pre pocetka, prebaciti folder sa danasnjom vezbom u okviru: C:/xampp/htdocs i preimenovati ga u <u>wp_termin8_g<b class="red">?</b></u></b> </p>
+				<ol>
+					<li>Kreirati JSON koji cuva podatke o korisnicima: <i>id, ime i prezime</i>. </li>
+					<li>Napisati asinh. zahtev za dohvatanje podataka iz fajla <b>korisnici.json</b>. </li>
+					<li>Ispisati u konzoli rezultat asinh. zahteva, ukoliko je uspesno preuzet sadrzaj fajla.</li>
+					<li>Prikazati dobijene korisnike iz JSON fajla u formi tabele u okviru bloka <i><b>id=&quot;korisnici&quot;</b></i></li>
+					<li>Kreirati asinh. zahtev ka nepostojećem fajla <b>asinh..json</b> i prikazati u konzoli greske koje nastaju.</li>
+					<li>Prikazati u konzoli status i tekst neuspešnog asinh. zahteva.</li>
+					<li>Kreirati asinh. zahtev ka fajlu <b>kategorije.json</b> i prikazati dobijene kategorije u okviru dropdown liste sa <i><b>id=&quot;kategorije&quot;</b></i>.</li>
+					<li>Kreirati asinh. zahtev ka fajlu <b>proizvodi.json</b> i prikazati proizvodi u okviru bloka <i><b>id=&quot;proizvodi&quot;</b></i> u skladu sa priloženim šablonom.</li>
+					<li>Klikom na taster sa <i><b>id=&quot;btnPrikazi&quot;</b></i>, prikazati samo proizode koji pripadaju kategoriji koja je izabrana iz dropdown liste. </li>
+					<li>Klikom na link &quot; Sortiraj po nazivu &quot; sortirati prozivode po nazivu u rastucem redosledu. (Dohvatiti ponovo proizvode iz JSON fajla) </li>
+					<li>Klikom na link &quot; Sortiraj po ceni &quot; sortirati prozivode po ceni u opadajucem redosledu. (Sortirati DOM) </li>
+					<li>Realan primer upotrebe JSON + asinh.:
+						<ol>
+							<li>Na stranici <a href="https://www.yahoo.com/news/weather/serbia/beograd/belgrade-532697/" target="_blank">https://www.yahoo.com/news/weather/serbia/beograd/belgrade-532697/</a> nalazi se widget koji prikazuje vremensku prognozu.</li>
+							<li>Nas zadatak je da preuzmemo podatke o vremenskoj prognozi.</li>
+							<li><b>Postavlja se pitanje: Kako je to moguce?</b></li>
+							<li>Da bi omogucio programerima da preuzmu podatke o vremenu, YAHOO je kreirao servis koji vraca podatke o vremenu iz njihove baze podataka u formi JSON-a : <a href="https://developer.yahoo.com/weather/" target="_blank">https://developer.yahoo.com/weather/</a> </li>
+							<li>Kreirati upit: <i>select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="<b>Belgrade</b>") and <b>u='c'</b></i> </li>
+							<li>Kreirati asinh. zahtev ka dobijenom linku i prikazati podatke o vremenu u formi tabele u bloku sa <i><b>id=&quot;prognoza&quot;</b></i> </li>
+						</ol>
+					</li>
+				</ol>
+			</div>
+			
+		</div>
+	
+	</body>
+</html>
