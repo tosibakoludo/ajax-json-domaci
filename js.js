@@ -158,20 +158,20 @@ function prikaziProizvode(data) {
 btnPrikazi.addEventListener("click", dohvatiProizvodeIzKategorije);
 
 async function dohvatiProizvodeIzKategorije() {
-    if (kategorije.value != 0) {
-        try {
-            var data = await fetch(`proizvodi.json`).then(result => {
-                if (result.ok) {
-                    return result.json();
-                }
-                throw new Error(result.status + " " + result.statusText);
-            });
+    console.log(kategorije.value);
+    try {
+        var data = await fetch(`proizvodi.json`).then(result => {
+            if (result.ok) {
+                return result.json();
+            }
+            throw new Error(result.status + " " + result.statusText);
+        })
+        if (kategorije.value != 0)
             data = data.filter(proizvod => proizvod.kategorija.id == kategorije.value);
-            prikaziProizvode(data);
-        }
-        catch (err) {
-            console.log(err);
-        }
+        prikaziProizvode(data);
+    }
+    catch (err) {
+        console.log(err);
     }
 }
 
