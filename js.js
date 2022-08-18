@@ -247,7 +247,7 @@ async function dohvatiCurrentWeather() {
     }
 }
 
-// dohvatiCurrentWeather();
+dohvatiCurrentWeather();
 
 function prikaziCurrentWeather(data) {
     console.log(data);
